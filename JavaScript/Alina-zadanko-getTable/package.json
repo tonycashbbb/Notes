@@ -1,0 +1,16 @@
+{
+  "name": "alina-zadanko",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "tonycashbbb",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  }
+}

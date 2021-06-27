@@ -1,0 +1,47 @@
+table {
+    width: 751px;
+    margin-top: 30px;
+}
+
+th {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+tbody:nth-child(even) {
+    background-color: #fff;
+}
+
+tbody:nth-child(odd) {
+    background-color: #E5E5E5;
+}
+
+tbody:nth-child(1) {
+    background-color: #CFCFCF;
+}
+
+td button {
+    width: 100%;
+}
+
+.goBackBtn {
+    margin-top: 30px;
+
+    padding: 5px 10px;
+}
+
+.hide {
+    display: none;
+}
+
+ul li:first-child {
+    list-style: none;
+}
