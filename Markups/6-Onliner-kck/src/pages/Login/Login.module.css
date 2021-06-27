@@ -1,0 +1,66 @@
+.login {
+    height: 93vh;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.form {
+    width: 400px;
+    margin: auto;
+}
+
+.ztitle {
+    opacity: 0.65;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 35px 15px;
+}
+
+.log {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999;
+}
+
+.inputs {
+    margin-top: 20px;
+}
+
+.inputs input {
+    display: block;
+    width: 250px;
+    margin: auto;
+    border: 1px solid #999;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.link {
+    margin-top: 30px;
+}
+
+.link a {
+    display: block;
+    width: 150px;
+    margin: auto;
+    background-color: #6AA220;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 13px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    transition: background-color 0.2s linear;
+}
+
+.link a:hover {
+    background-color: #86CD28;
+}

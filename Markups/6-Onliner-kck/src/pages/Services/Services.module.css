@@ -1,0 +1,43 @@
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.nav {
+    width: 17%;
+}
+
+.list {
+    width: 83%;
+}
+
+.nav__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.inpt {
+    margin-bottom: 20px;
+}
+
+.inpt input {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.nav__item {
+    padding: 6px;
+    cursor: pointer;
+}
+
+.nav__item:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.list {
+    background-color: #fff;
+    margin-left: 50px;
+}

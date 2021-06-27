@@ -1,0 +1,443 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Open Sans, sans-serif;
+}
+
+button, 
+button:active, 
+button:focus
+input,
+input:active,
+input:focus {
+    outline: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+.wrapper {
+	max-width: 1440px;
+	margin: auto;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+.intro {
+	background-color: #02160b;
+}
+
+/* Header */
+
+.header {
+	position: absolute;
+	width: 1200px;
+	top: 7px;
+	left: 300px;
+	padding: 20px;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 45px;
+}
+
+.logo__img {
+	height: 58px;
+	width: 68px;
+	display: block;
+	margin-right: 9px;
+
+}
+
+.logo__img:hover {
+	cursor: pointer;
+}
+
+.logo__text {
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	color: #F7F7F7;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+.logo__text:hover {
+	cursor: pointer;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.nav__list li {
+	font-size: 23px;
+	color: #f7f7f7;
+	list-style: none;
+	margin-left: 61px;
+}
+
+.nav__list li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.nav__list li:hover i {
+	color: #ccc;
+}
+
+.nav__list li button {
+	font-size: 23px;
+	color: #f7f7f7;
+	background-color: inherit;
+	padding: 7px 15px 5px;
+	border: 2px solid #cd6326;
+	border-radius: 7px;
+
+	transition: background-color 0.2s linear;
+}
+
+.nav__list li button:hover{
+	cursor: pointer;
+	background-color: #cd6326;
+}
+
+.nav__list li button:active{
+	cursor: pointer;
+	background-color: #8F5613;
+	border-color: #8F5613;
+}
+
+.nav__list li:first-child {
+	margin-left: 0;
+}
+
+.nav__list li a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+/* Survival */
+
+.survival {
+	height: 740px;
+	background-image: url(assets/Rectangle.svg);
+	background-repeat: no-repeat;
+}
+
+.survival__title {
+	width: 199px;
+	height: 72px;
+
+	padding-top: 212px;
+	padding-left: 12px;
+
+	font-size: 48px;
+	color: #cd6326;
+	letter-spacing: 1.5px;
+}
+
+.survival__text {
+	width: 274px;
+	height: 108px;
+	color: #f7f7f7;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+
+	margin-top: 39px;
+	margin-left: 14px;
+}
+
+.survival__btn {
+	width: 160px;
+	height: 60px;
+	background: #CD6326;
+	border: 0;
+	border-radius: 5px;
+	font-size: 23px;
+	color: #f7f7f7;
+
+	margin-top: 44px;
+	margin-left: 12px;
+
+	transition: background-color 0.2s linear;
+}
+
+.survival__btn:hover {
+	cursor: pointer;
+	background-color: #E5902A;
+}
+
+.survival__btn:active {
+	background-color: #8F5613;
+}
+
+
+/* Articles */
+
+.articles {
+	background-color: #ccc;
+}
+
+.articles__title {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 51px;
+	line-height: 72px;
+	text-align: center;
+	letter-spacing: 1px;
+
+	padding-top: 120px;
+	padding-bottom: 20px;
+}
+
+.articles__subtitle {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.7px;
+
+	text-align: center;
+	color: #666666;
+
+	padding-bottom: 120px;
+}
+
+.articles__images {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.articles__item {
+	position: relative;
+	margin-right: 60px;
+}
+
+.articles__item:hover i {
+	color: #f7f7f7;
+	cursor: pointer;
+}
+
+.articles__item:last-child {
+	margin-right: 0;
+}
+
+.articles__item img {
+	width: 300px;
+	height: 360px;
+}
+
+.item__title {
+	position: absolute;
+	width: 52px;
+	height: 36px;
+	left: 130px;
+	top: 252px;
+	z-index: 1;
+
+	font-size: 22px;
+	line-height: 36px;
+
+	text-align: center;
+
+	color: #F7F7F7;
+}
+.item__subtitle {
+	position: absolute;
+	width: 186px;
+	height: 27px;
+	left: 62px;
+	top: 297px;
+	z-index: 1;
+
+	/* small */
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 27px;
+
+	text-align: center;
+
+	/* font-light */
+
+	color: #F7F7F7;
+}
+
+.item__subtitle.bird {
+	left: 49px;
+}
+
+
+
+/* Notified */
+
+.notified {
+	padding-top: 239px;
+	padding-bottom: 239px;
+	background-color: #ccc;
+}
+
+.notified__title {
+	font-size: 27px;
+	line-height: 40px;
+	text-align: center;
+	color: #333333;
+	letter-spacing: 0.5px;
+
+	padding-bottom: 59px;
+}
+
+.notified__form {
+	width: 700px;
+	margin: auto;
+	margin-left: 270px;
+}
+
+.input {
+	width: 509px;
+	border: 1px solid #666;
+	background-color: #ccc;
+	font-size: 23px;
+	padding: 15px;
+}
+
+.input:focus {
+	border: 1px solid #cd6326;
+	color: #666;
+}
+
+.send {
+	margin: -4px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	font-size: 23px;
+	width: 119px;
+	border-radius: 3px;
+	background-color: #cd6326;
+	color: #f7f7f7;
+	border: 0;
+
+	transition: background-color 0.2s linear;
+}
+
+.send:hover {
+	cursor: pointer;
+	background-color: #E5902A;;
+}
+
+.send:active {
+	background-color: #8F5613;
+}
+
+
+/* Footer */
+.footer {
+	height: 360px;
+	background-color: #181617;
+}
+
+.footer__row {
+	display: flex;
+	align-items: center;
+	height: 360px;
+
+	position: relative;
+}
+
+.footer__inner {
+	background-image: url(assets/footer.svg);
+	background-repeat: no-repeat;
+}
+
+.footer__logo {
+	margin-right: 125px;
+}
+
+.footer__nav {
+	display: flex;
+}
+
+.footer__nav li a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.footer__nav li:hover a {
+	text-decoration: underline;
+}
+
+.footer__text {
+	font-size: 23px;
+	line-height: 60px;
+
+	margin-right: 91px;
+	color: #F7F7F7;
+}
+
+.footer__text:last-child {
+	margin-right: 0px;
+}
+
+.footer__social {
+	position: absolute;
+	top: 160px;
+	right: -23px;
+	z-index: 1;
+}
+
+.footer__social-links {
+	display: flex;
+}
+
+.footer__img {
+	background-repeat: no-repeat;
+
+	margin-right: 27px;
+
+	width: 40px;
+	height: 40px;
+}
+
+.footer__img.facebook {
+	background-image: url(assets/facebook.svg);
+}
+.footer__img.instagram {
+	background-image: url(assets/instagram.svg);
+}
+.footer__img.pinterest {
+	background-image: url(assets/pinterest.svg);
+}
+.footer__img.telegram {
+	background-image: url(assets/telegram.svg);
+}
+
+.footer__img:last-child {
+	margin-right: 0;
+}
+
+.footer__img:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}

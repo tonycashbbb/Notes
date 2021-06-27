@@ -1,0 +1,143 @@
+.bgc {
+    background-color: #fff;
+}
+
+.top {
+    width: 1380px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.kek button {
+    background-color: #fff;
+}
+
+.offliner {
+    font-size: 45px;
+    font-weight: 800;
+    color: #1A6DBB;
+}
+
+.l {
+    color: red
+}
+
+.bottom {
+    margin-top: 30px;
+    position: relative;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.btn {
+    padding: 10px 10px 0px 10px;
+
+    font-size: 16px;
+    font-weight: 700;
+    color: #1A6DBB;
+
+    border-radius: 5px;
+    border: 1px solid #1A6DBB;
+
+    cursor: pointer;
+
+    transition: background-color 0.2s linear, color .2s linear;
+}
+
+.btn:hover {
+    background-color: #1A6DBB;
+    color: white;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    color: white;
+}
+
+.title {
+    display: inline-block;
+    width: 100%;
+
+    margin-top: 30px;
+    margin-left: 650px;
+
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.join {
+    margin-top: 20px;
+
+    position: absolute;
+    top: 135px;
+    left: 754px;
+
+    width: 320px;
+    padding: 18px 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    background-color: #FFDA50;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.join:hover {
+    background-color: #FFE37F;
+}
+
+.seo {
+    width: 1100px;
+    background-color: #fff;
+
+    position: absolute;
+    top: 600px;
+    left: 29%;
+
+    border: 1px solid #051d34;
+    padding: 50px 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.seo__item {
+    width: 20%;
+    color: #051d34;
+}
+
+.seo__item img {
+    margin-bottom: 10px;
+}
+.photo {
+    text-align: center;
+}
+
+.seo__title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.seo__text {
+    text-align: center;
+    font-size: 15px;
+    line-height: 18px;
+}

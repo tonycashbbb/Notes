@@ -1,0 +1,12 @@
+.container {
+    max-width: 1380px;
+    margin: auto;
+}
+
+.bgc {
+    background-color: #E3E3E3;
+}
+
+a {
+    color: inherit;
+}

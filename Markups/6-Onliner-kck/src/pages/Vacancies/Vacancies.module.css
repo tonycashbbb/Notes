@@ -1,0 +1,52 @@
+.about {
+    background-color: #fff;
+}
+
+.qwq {
+    font-size: 34px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 120px 60px 60px;
+    padding: 40px;
+}
+
+.list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.list li {
+    font-size: 16px;
+    color: #333;
+    line-height: 18px;
+    width: 700px;
+
+    margin-bottom: 15px;
+}
+
+.wouldlike h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.wouldlike li {
+    color: #0000FF;
+    font-size: 22px;
+    font-weight: 700;
+
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.wouldlike li:hover {
+    text-decoration: underline;
+}
+
+.contacts h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

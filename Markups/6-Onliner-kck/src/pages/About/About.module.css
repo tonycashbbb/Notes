@@ -1,0 +1,36 @@
+.about {
+    background-color: #fff;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 120px 60px 60px;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.ppp {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+p div {
+    padding: 3px 0px;
+}
+
+p a {
+    color: #1A6DBB;
+    font-weight: 600;
+}
+p a:hover {
+    text-decoration: underline;
+}

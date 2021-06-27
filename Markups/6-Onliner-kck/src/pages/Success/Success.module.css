@@ -1,0 +1,45 @@
+.about {
+    background-color: #fff;
+    height: 100vh;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 120px 0px 60px;
+    padding: 40px;
+}
+
+.container img {
+    margin-bottom: 50px;
+}
+
+.h1 {
+    font-size: 40px;
+    color: green;
+}
+
+.link a {
+    font-size: 24px;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+.link {
+    margin-bottom: 20px;
+}
+
+.link button {
+    background-color: #FFF1D5;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 15px;
+    color: #333;
+}
+
+.link button:hover {
+    color: #000;
+    border: 1px solid black;
+}
+
+

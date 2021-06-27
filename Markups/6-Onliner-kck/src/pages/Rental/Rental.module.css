@@ -1,0 +1,67 @@
+.row {
+    display: flex;
+    width: 100%;
+
+    background-color: #fff;
+}
+
+.photo img {
+    width: 1381px;
+}
+
+.item {
+    width: 33%;
+    padding: 17px 30px;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.item.first {
+    background-color: #FFDD22;
+}
+
+.text {
+    font-size: 21px;
+    color: #333;
+}
+
+.cont:first-child {
+    border-left: 1px solid #999999;
+}
+
+.cont {
+    padding: 15px;
+    width: 50%;
+    border-right: 1px solid #999999;
+}
+
+.img span {
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.galka {
+    display: flex;
+}
+
+.q {
+    margin-left: 30px;
+    width: 50%;
+}
+
+.num {
+    font-size: 20px;
+}
+
+.time {
+    margin-top: 5px;
+    color: #999;
+}
+
+.contact {
+    margin-top: 20px;
+    color: blue;
+    font-size: 18px;
+}
